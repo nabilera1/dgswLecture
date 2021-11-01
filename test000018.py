@@ -1,5 +1,5 @@
 mydict = {}  # 빈 딕셔너리를 생성
-for _ in range(2):  # 2회 반복만 시키기 위해 _ 사용
+for _ in range(2):  # 2회 반복만 시키기 위해 변수명 없이 _ 사용
     key = input('가수명 입력 : ')
     value = input('가수에 대한 설명 입력 : ')
     mydict[key] = value
